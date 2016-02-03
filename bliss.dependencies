@@ -1,9 +1,9 @@
 [
   {
     "remote": "github",
-    "repository": "CM-Shield/android_kernel_nvidia_shieldtablet",
+    "repository": "BitOBSessiOn/android_kernel_nvidia_shieldtablet",
     "target_path": "kernel/nvidia/shieldtablet",
-    "revision": "cm-13.0"
+    "revision": "bito-k3"
   },
   {
     "remote": "github",
