@@ -2,7 +2,7 @@
   {
     "remote": "github",
     "repository": "BitOBSessiOn/android_kernel_nvidia_shieldtablet",
-    "target_path": "kernel/nvidia/shieldtablet",
+    "target_path": "kernel/nvidia/shield",
     "revision": "bito-k4"
   },
   {
