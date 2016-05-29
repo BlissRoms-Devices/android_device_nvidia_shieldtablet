@@ -16,3 +16,7 @@ ro.nv.usb.pid.rndis.acm.adb=CF08
 ro.nv.usb.pid.rndis.adb=CF08
 ro.nv.usb.pid.ptp=CF07
 ro.nv.usb.pid.ptp.adb=CF05
+
+# Specific device info (Bliss building)
+ro.product.model=Shield Tablet
+ro.product.device=shieldtablet
