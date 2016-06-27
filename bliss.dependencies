@@ -7,19 +7,19 @@
   },
   {
     "remote": "github",
-    "repository": "CM-Shield/android_device_nvidia_shield-common",
+    "repository": "CyanogenMod/android_device_nvidia_shield-common",
     "target_path": "device/nvidia/shield-common",
     "revision": "cm-13.0"
   },
   {
     "remote": "github",
-    "repository": "CM-Shield/android_hardware_nvidia_power",
+    "repository": "CyanogenMod/android_hardware_nvidia_power",
     "target_path": "hardware/nvidia/power",
     "revision": "cm-13.0"
   },
   {
     "remote": "github",
-    "repository": "CM-Shield/proprietary_vendor_nvidia",
+    "repository": "TheMuppets/proprietary_vendor_nvidia",
     "target_path": "vendor/nvidia",
     "revision": "cm-13.0"
   }
