@@ -6,14 +6,14 @@
     "revision": "bito-k5"
   },
   {
-    "remote": "github",
-    "repository": "CyanogenMod/android_device_nvidia_shield-common",
+    "remote": "cm",
+    "repository": "android_device_nvidia_shield-common",
     "target_path": "device/nvidia/shield-common",
     "revision": "cm-13.0"
   },
   {
-    "remote": "github",
-    "repository": "CyanogenMod/android_hardware_nvidia_power",
+    "remote": "cm",
+    "repository": "android_hardware_nvidia_power",
     "target_path": "hardware/nvidia/power",
     "revision": "cm-13.0"
   },
