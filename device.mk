@@ -15,6 +15,7 @@
 #
 
 PRODUCT_AAPT_CONFIG += xlarge large
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1200
 
@@ -26,6 +27,8 @@ TARGET_TEGRA_TOUCH := raydium
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
 $(call inherit-product-if-exists, vendor/nvidia/shieldtablet/shieldtablet-vendor.mk)
+
+PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.name
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
