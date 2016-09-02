@@ -94,6 +94,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/camera/nvcamera.conf:system/etc/nvcamera.conf \
     $(LOCAL_PATH)/camera/model_frontal.xml:system/etc/model_frontal.xml
+PRODUCT_PACKAGES += Snap
 
 # Wifi
 PRODUCT_COPY_FILES += \
@@ -114,6 +115,9 @@ PRODUCT_PACKAGES += rild
 
 # Power
 PRODUCT_PACKAGES += power.tegra
+
+# Browser
+PRODUCT_PACKAGES += Gello
 
 # Wireless Controller
 #$(call inherit-product-if-exists, vendor/nvidia/shield_common/blake-blobs.mk)
