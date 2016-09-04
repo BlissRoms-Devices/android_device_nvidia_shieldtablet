@@ -1,25 +1,21 @@
 [
  {
-   "remote": "cm-shield",
    "repository": "android_device_nvidia_shield-common",
-   "target_path": "device/nvidia/shield-common",
-   "revision": "cm-14.0"
+   "target_path": "device/nvidia/shield-common"
  },
  {
-   "remote": "cm-shield",
+   "remote": "BlissRoms-Kernels"
    "repository": "android_kernel_nvidia_shield",
    "target_path": "kernel/nvidia/shield",
-   "revision": "cm-14.0"
+   "revision": "n7.0"
  },
  {
-   "remote": "cm-shield",
    "repository": "android_hardware_nvidia_power",
-   "target_path": "hardware/nvidia/power",
-   "revision": "cm-14.0"
+   "target_path": "hardware/nvidia/power"
  },
  {
-   "remote": "cm-shield",
-   "repository": "proprietary_vendor_nvidia",
+   "remote": "gitlab-incom",
+   "repository": "CM-Shield/proprietary_vendor_nvidia.git",
    "target_path": "vendor/nvidia",
    "revision": "cm-14.0"
  }
