@@ -123,4 +123,4 @@ TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
 
 #SaberMod
--include vendor/bliss/config/sm.mk
+#-include vendor/bliss/config/sm.mk
