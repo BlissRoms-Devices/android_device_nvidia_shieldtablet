@@ -1,9 +1,9 @@
 [
  {
-   "remote": "github",
-   "repository": "Shieldtablet-N/android_device_nvidia_shield-common",
+   "remote": "BlissRoms-Devices",
+   "repository": "android_device_nvidia_shield-common",
    "target_path": "device/nvidia/shield-common",
-   "branch"     : "cm-14.1"
+   "branch"     : "n7.1"
  },
  {
    "remote": "github",
@@ -12,10 +12,10 @@
    "branch"     : "cm-14.1"
  },
  {
-   "remote": "github",
-   "repository": "Shieldtablet-N/android_hardware_nvidia_power",
+   "remote": "BlissRoms",
+   "repository": "android_hardware_nvidia_power",
    "target_path": "hardware/nvidia/power",
-   "branch"     : "cm-14.1"
+   "branch"     : "n7.1"
  },
  {
    "remote": "github",
