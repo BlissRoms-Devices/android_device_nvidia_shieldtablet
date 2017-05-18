@@ -16,6 +16,7 @@
 
 -include device/nvidia/shield-common/BoardConfigCommon.mk
 
+
 TARGET_SPECIFIC_HEADER_PATH := device/nvidia/shieldtablet/include
 
 # Architecture
@@ -36,7 +37,8 @@ KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-ea
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 TARGET_KERNEL_SOURCE := kernel/nvidia/shield
 TARGET_KERNEL_CONFIG := lineageos_shieldtablet_defconfig
-BOARD_KERNEL_CMDLINE := androidboot.hardware=tn8 androidboot.selinux=permissive
+BOARD_KERNEL_CMDLINE := androidboot.hardware=tn8 
+#androidboot.selinux=permissive
 
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
@@ -89,6 +91,14 @@ BOARD_HARDWARE_CLASS := device/nvidia/shieldtablet/cmhw/
 
 # SELinux
 BOARD_SEPOLICY_DIRS += device/nvidia/shieldtablet/sepolicy
+
+# QCOM Common Sepolicy 
+BOARD_SEPOLICY_DIRS += \
+       device/qcom/sepolicy \
+       device/qcom/sepolicy/test \
+       device/qcom/sepolicy/common
+
+-include vendor/bliss/sepolicy/qcom/sepolicy.mk
 
 # Vendor Init
 TARGET_UNIFIED_DEVICE := true
