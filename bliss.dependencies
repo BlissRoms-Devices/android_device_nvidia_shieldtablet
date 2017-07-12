@@ -3,36 +3,42 @@
    "remote": "BlissRoms-Devices",
    "repository": "android_device_nvidia_shield-common",
    "target_path": "device/nvidia/shield-common",
-   "branch"     : "n7.1"
- },
- {
-   "remote": "github",
-   "repository": "Shieldtablet-N/android_kernel_nvidia_shield",
-   "target_path": "kernel/nvidia/shield",
-   "branch"     : "cm-14.1"
+   "revision": "n7.1"
  },
  {
    "remote": "BlissRoms",
-   "repository": "android_hardware_nvidia_power",
+   "repository": "platform_hardware_libhardware",
+   "target_path": "hardware/libhardware",
+   "revision": "n7.1"
+ },
+ {
+   "remote": "github",
+   "repository": "LineageOS/android_kernel_nvidia_shield",
+   "target_path": "kernel/nvidia/shield",
+   "revision": "cm-14.1"
+ },
+ {
+   "remote": "github",
+   "repository": "LineageOS/android_hardware_nvidia_power",
    "target_path": "hardware/nvidia/power",
-   "branch"     : "n7.1"
+   "revision": "cm-14.1"
  },
  {
    "remote": "github",
-   "repository": "Shieldtablet-N/android_hardware_nvidia_thermal",
+   "repository": "LineageOS/android_hardware_nvidia_thermal",
    "target_path": "hardware/nvidia/thermal",
-   "branch"     : "cm-14.1"
+   "revision": "cm-14.1"
  },
  {
    "remote": "github",
-   "repository": "Shieldtablet-N/android_hardware_nvidia_libstagefrighthw",
+   "repository": "LineageOS/android_hardware_nvidia_libstagefrighthw",
    "target_path": "hardware/nvidia/libstagefrighthw",
-   "branch"     : "cm-14.1"
+   "revision": "cm-14.1"
  },
  {
    "remote": "github",
-   "repository": "Shieldtablet-N/proprietary_vendor_nvidia",
+   "repository": "TheMuppets/proprietary_vendor_nvidia",
    "target_path": "vendor/nvidia",
-   "branch"     : "cm-14.1-restructure"
+   "revision": "cm-14.1"
  }
 ]
